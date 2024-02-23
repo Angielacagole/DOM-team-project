@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Mainstay' ;
+	src: url('Mainstay.ttf')
+}
+
+h1{
+font-family: 'Mainstay', sans-serif;
+}
+
+	
+.form {
+    border : 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fieldset {
+
+    border-radius:20px;
+}
+
