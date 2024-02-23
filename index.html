@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Formulaire</h1>
-    
-    
-<div class="form">
-
-<label for="Name">Nom <input id="Name" type="text" required placeholder="Nom"></label><br>
-<label for="FirstName">Prénom <input id="FirstName"type="text" required></label><br>
-<label for="Email">E-mail <input id="Email"type="text" required></label><br>
-<label for="PassWord">Mot de Passe <input id="PassWord"type="text" required></label><br>
-
-<fieldset id="fieldset">
-    <legend>Quel est votre statut ?</legend>
-<label for="Salarié">Salarié <input id="Salarié" type="radio" name="status" checked></label><br>
-<label for="Freelance">Freelance <input id="Freelance" type="radio" name="status"></label><br>
-<label for="Etudiant">Etudiant <input id="Etudiant" type="radio" name="status"></label><br>
-</fieldset>
 
 
+    <form id="form">
 
-<label for="Bio">Bio <textarea id="Bio" name="Bio" rows="4" cols="30" 
-    placeholder="Entrez votre message"></textarea></label><br>
 
-<label for="Avatar">Téléchargez votre Avatar <input id="Avatar"type="file" name ="file" required></label><br>
+        <label for="name">Nom <input id="name" type="text" required placeholder="Nom"></label><br>
+        <label for="firstname">Prénom <input id="firstname" type="text" required></label><br>
+        <label for="email">E-mail <input id="email" type="text" required></label><br>
+        <label for="password">Mot de Passe <input id="password" autocomplete="current-password" type="password" required></label><br>
 
-<fieldset id="fieldset">
-    <legend>Quel est votre animal préféré ?</legend>
-<label for="Loutre">Loutre <input id="Loutre" type="checkbox" name="status" checked></label><br>
-<label for="Racoon">Racoon <input id="Racoon" type="checkbox" name="status"></label><br>
-<label for="Panda Roux">Panda Roux <input id="Panda Roux" type="checkbox" name="status"></label><br>
-</fieldset>
-</div>
-
-<button>Go!</button>
+        <fieldset class="fieldset">
+            <legend>Quel est votre statut ?</legend>
+            <label for="Salarié">Salarié <input id="Salarié" type="radio" name="status" checked></label><br>
+            <label for="Freelance">Freelance <input id="Freelance" type="radio" name="status"></label><br>
+            <label for="Etudiant">Etudiant <input id="Etudiant" type="radio" name="status"></label><br>
+        </fieldset>
 
 
 
+        <label for="Bio">Bio <textarea id="Bio" name="Bio" rows="4" cols="30"
+                placeholder="Entrez votre message"></textarea></label><br>
 
+        <label for="Avatar">Téléchargez votre Avatar <input id="Avatar" type="file" name="file" required></label><br>
+
+        <fieldset class="fieldset">
+            <legend>Quel est votre animal préféré ?</legend>
+            <label for="Loutre">Loutre <input id="Loutre" type="checkbox" name="status" checked></label><br>
+            <label for="Racoon">Racoon <input id="Racoon" type="checkbox" name="status"></label><br>
+            <label for="Panda Roux">Panda Roux <input id="Panda Roux" type="checkbox" name="status"></label><br>
+        </fieldset>
+
+    </form>
+
+    <button id="submit" type="submit">Go!</button>
 
 
 
@@ -56,6 +56,11 @@
 
 
 
-    <script src="index.js"></script>
+
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
