@@ -15,8 +15,16 @@ Page formulaire / questionnaire :
 - vérification du mot de passe
 - responsive
 
-1.  A) Mises en place des inputs
-    B) CSS (responsive)
-    C) Vérification adresse mail
-    D) Mot de passe hachage et stockage
-    E) Page connexion à la session créée
+
+## To do:
+
+- [ ]  Mises en place des inputs
+- [ ]  Stocker dans un tableau les données
+- [ ]  SS (responsive)
+- [ ]  API pour générer un avatar / fond d'ecran
+- [ ]  Vérification adresse mail
+- [ ]  Mot de passe hachage et stockage
+- [ ]  Page connexion à la session créée
+
+  
+
