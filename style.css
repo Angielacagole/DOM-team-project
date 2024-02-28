@@ -2,13 +2,16 @@
 	font-family: 'Mainstay' ;
 	src: url('Mainstay.ttf')
 }
-
+body{
+    background-color: rgba(250, 197, 245, 0.938);
+    /* text-align: center; */
+}
 h1{
 font-family: 'Mainstay', sans-serif;
 }
 
 	
-.form {
+#form {
     border : 2px solid black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -18,3 +21,39 @@ font-family: 'Mainstay', sans-serif;
     border-radius:20px;
 }
 
+/* .box{
+    border : 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start
+
+    
+} */
+
+
+/* label{
+    border: 2px solid white;
+    width: 50%;
+    display: flex-start;
+}
+
+input{
+    display: flex;
+    align-self: flex-end;
+} */
+.box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box label {
+    margin-bottom: 10px; /* Espacement entre chaque input */
+  }
+  
+  #avatar{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    
+  }
